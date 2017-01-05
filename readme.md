@@ -1,38 +1,51 @@
-transpile: 
+# wtf
+
+set up for me to create code sketches for bl.ocks.org using es6 syntax
+
+------------------
+
+## start
+
+Run: `npm update` in the console to install npm modules
+
+------------------
+
+## transpile es6 code using [buble](https://gitlab.com/Rich-Harris/buble): 
+
+`npm run build` will compile using the below script:
 
 ```
-babel script.js --out-file gist/script-compiled.js
+buble gist/script.js > gist/script-compiled.js
 ```
 
 
-to watch:
+**NOTE:** To generate separate sourcemap files – i.e. an `output.js.map` file to go along with `output.js` – use the  `--sourcemap` or `-m` flag:
 
 ```
-babel script.js --watch --out-file gist/script-compiled.js
+buble -i input.js -m -o output.js
 ```
 
 
 ------------------
 
-Compile with Source Maps
-If you would then like to add a source map file you can use --source-maps or -s. [Learn more about source maps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/).
+## local server
 
-```
-$ babel script.js --out-file gist/script-compiled.js --source-maps
-```
+`npm run serve` will use [simple-autoreload-server](https://www.npmjs.com/package/simple-autoreload-server) to run a simple web server on Node.js with Live/Autoreload feature
 
-If you would rather have inline source maps, you may use --source-maps inline.
-
-```
-$ babel script.js --out-file gist/script-compiled.js --source-maps inline
-```
+view at: http://localhost:3000/
 
 ------------------
 
-if not using `.babelrc` :
+## end
 
-```
-babel --presets es2015 script.js --out-file gist/script-compiled.js
-```
+once all working as desired, navigate to the gist folder: `cd gist` 
 
+1. replace `thumbnail.png` (or delete it if not using thumbnail on blocks)
+2. update `README.md`
+
+finally create the gist: `gistup -m 'd3 | your title'`
+
+**NOTE** for further options using gistup: https://github.com/mbostock/gistup
+
+------------------
 

@@ -1,0 +1,1 @@
+`script.js` uses es6 coding syntax and is compiled to es5 in `script-compiled.js` using [buble](https://gitlab.com/Rich-Harris/buble) 

@@ -1,9 +1,11 @@
-var nameBuilder = function nameBuilder() {
-    var firstName = arguments.length <= 0 || arguments[0] === undefined ? "Sundar" : arguments[0];
-    var lastName = arguments.length <= 1 || arguments[1] === undefined ? "Singh" : arguments[1];
+var nameBuilder = function(firstName, lastName) {
+    if ( firstName === void 0 ) firstName='Grace';
+    if ( lastName === void 0 ) lastName='Hopper';
 
-    d3.select('h1').text(firstName + " " + lastName);
-    console.log(firstName + " " + lastName);
+
+    var fullName = firstName + "  " + lastName
+
+    d3.select('h1').text(fullName)
 };
 
-nameBuilder();
+nameBuilder()
