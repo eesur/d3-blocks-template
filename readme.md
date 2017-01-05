@@ -30,9 +30,9 @@ buble -i input.js -m -o output.js
 
 ## local server
 
-`npm run serve` will use [simple-autoreload-server](https://www.npmjs.com/package/simple-autoreload-server) to run a simple web server on Node.js with Live/Autoreload feature
+`npm run serve` will use [live-server](https://github.com/tapio/live-server) to run a little development server with live reload capability
 
-view at: http://localhost:3000/
+view at: http://localhost:8888/
 
 ------------------
 
