@@ -5,7 +5,7 @@
   "main": "gist/script.js",
   "scripts": {
     "build": "buble gist/script.js > gist/script-compiled.js",
-    "serve": "cd gist; live-server --port=8888 &"
+    "serve": "cd gist; live-server --port=8888"
   },
   "repository": {
     "type": "git",
