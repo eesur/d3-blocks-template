@@ -1,5 +1,3 @@
-# wtf
-
 set up for me to create code sketches for bl.ocks.org using es6 syntax
 
 ------------------
@@ -41,7 +39,8 @@ view at: http://localhost:8888/
 once all working as desired, navigate to the gist folder: `cd gist` 
 
 1. replace `thumbnail.png` (or delete it if not using thumbnail on blocks)
-2. update `README.md`
+2. replace `preview.png` (or delete it if not using social media preview)
+3. update `README.md`
 
 finally create the gist: `gistup -m 'd3 | your title'`
 

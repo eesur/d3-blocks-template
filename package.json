@@ -1,6 +1,6 @@
 {
   "name": "d3-blocks-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "setup for using es6 for bl.ocks.org",
   "main": "gist/script.js",
   "scripts": {

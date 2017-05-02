@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <!-- http://www.basscss.com/ -->
-    <link href="//npmcdn.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <!-- <link href="//npmcdn.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"> -->
     <!-- http://clrs.cc/ -->
-    <link href="//s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css" rel="stylesheet">
+    <!-- <link href="//s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css" rel="stylesheet"> -->
     <style>
         body { font-family: Consolas, monaco, monospace;}
     </style>
@@ -15,19 +15,19 @@
         <p>vis for []</p>
     </header>
 
-    <section id="vis">
-        <h1>This text will/should be replaced</h1>
-    </section>
+    <svg width="960" height="400">
+        <g id="vis" transform="translate(10, 10)"></g>
+    </svg>
 
 <script src="//d3js.org/d3.v4.min.js" charset="utf-8"></script>
-<script src="//d3js.org/d3-selection-multi.v1.min.js"></script>
-<script src="//cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" charset="utf-8"></script>
+<!-- <script src="//cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" charset="utf-8"></script> -->
 <!-- d3 code -->
 <script src="script-compiled.js" charset="utf-8"></script>
 <!-- render code -->
-<script>
-    // nameBuilder('Charley', 'Harper');
-</script>
+<!-- <script>
+    // change frame height
+    d3.select(self.frameElement).style('height', '780px');
+</script> -->
 
 </body>
 </html>
