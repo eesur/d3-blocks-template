@@ -8,7 +8,7 @@ Run: `npm update` in the console to install npm modules
 
 ------------------
 
-## transpile es6 code using [buble](https://gitlab.com/Rich-Harris/buble): 
+## transpile es6 code using [buble](https://gitlab.com/Rich-Harris/buble):
 
 `npm run build` will compile using the below script:
 
@@ -36,15 +36,15 @@ view at: http://localhost:8888/
 
 ## end
 
-once all working as desired, navigate to the gist folder: `cd gist` 
+once all working as desired, navigate to the gist folder: `cd gist`
 
 1. replace `thumbnail.png` (or delete it if not using thumbnail on blocks)
 2. replace `preview.png` (or delete it if not using social media preview)
 3. update `README.md`
+4. Optionally, if you want script-compiled.js to be hidden once you push the gist to the block, rename it to `.script-compiled.js` and update the corresponding script tag in `index.html`
 
 finally create the gist: `gistup -m 'd3 | your title'`
 
 **NOTE** for further options using gistup: https://github.com/mbostock/gistup
 
 ------------------
-
