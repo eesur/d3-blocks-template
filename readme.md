@@ -1,3 +1,7 @@
+**I'm no longer using this after finding [blockup](https://github.com/gabrielflorit/blockup), which is awesome!
+
+------------------
+
 set up for me to create code sketches for bl.ocks.org using es6 syntax
 
 ------------------
