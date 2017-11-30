@@ -1,4 +1,4 @@
-**I'm no longer using this after finding [blockup](https://github.com/gabrielflorit/blockup), which is awesome!
+**I'm no longer using this after finding [blockup](https://github.com/gabrielflorit/blockup), which is awesome!**
 
 ------------------
 
